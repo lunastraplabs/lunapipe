@@ -9,7 +9,7 @@ async function downloadLatest() {
             if (downloadLinks.length > 0) {
                 window.location.href = downloadLinks[0];
             } else {
-                console.error('Error fetching release data:', data.message);
+                console.error('Error fetching release:', data.message);
             }
         }
     } catch (error) {
