@@ -1,6 +1,6 @@
 async function downloadLatest() {
     try {
-        const response = await fetch(`https://api.github.com/repos/returnrqt/fishstrap/releases/latest`);
+        const response = await fetch(`https://api.github.com/repos/lunastraplabs/lunastrap/releases/latest`);
         const data = await response.json();
         
         if (response.ok) {
@@ -16,9 +16,3 @@ async function downloadLatest() {
         console.error('Failed to fetch latest release: ' + error);
     }
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById('download').addEventListener('click', function() {
-        downloadLatest();
-    });
-});
