@@ -17,6 +17,8 @@ async function downloadLatest() {
     }
 }
 
-document.getElementById('download').addEventListener('click', function() {
-    downloadLatest();
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById('download').addEventListener('click', function() {
+        downloadLatest();
+    });
 });
