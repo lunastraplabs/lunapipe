@@ -3,4 +3,5 @@
 Lunastrap is the best Bloxstrap Fork.
 
 Special thanks:
+- [@accept](https://discord.com/users/1298581029589618750) (New website)
 - [@cr1tcal3](https://discord.com/users/1268695548097990823) (First website)
